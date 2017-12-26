@@ -16,7 +16,7 @@ $(document).ready(function() {
   })(jQuery);
 
   // input text for typing animation 
-  $("#holder").writeText("WEB DESIGNER + FRONT-END DEVELOPER");
+  $("#holder").writeText("Aqui vai o que quiser");
 
   // initialize wow.js
   new WOW().init();
@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'connect'],
-    anchors: ['home', 'about', 'portfolio', 'contact', 'connect'],
+    navigationTooltips: ['Início', 'Metodologia', 'Convite', 'PDG', 'GO TO MARKET', 'Liderança Situacional', 'Pequenas Empresas', 'Contato'],
+    anchors: ['início', 'metodologia', 'convite', 'PDG', 'market', 'liderança', 'empresas', 'contato'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -111,16 +111,32 @@ $(document).ready(function() {
   });
 
   // fullpage.js link navigation
-  $(document).on('click', '#skills', function(){
+  $(document).on('click', '#metodologia', function(){
     $.fn.fullpage.moveTo(2);
   });
 
-  $(document).on('click', '#projects', function(){
+  $(document).on('click', '#convite', function(){
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#PDG', function(){
     $.fn.fullpage.moveTo(4);
+  });
+
+  $(document).on('click', '#market', function(){
+    $.fn.fullpage.moveTo(5);
+  });
+
+  $(document).on('click', '#liderança', function(){
+    $.fn.fullpage.moveTo(6);
+  });
+
+  $(document).on('click', '#empresas', function(){
+    $.fn.fullpage.moveTo(7);
+  });
+
+  $(document).on('click', '#contato', function(){
+    $.fn.fullpage.moveTo(8);
   });
 
   // smooth scrolling
