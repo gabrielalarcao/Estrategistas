@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: #FF6363;
+    color: rgb(261,61,56);
     font-weight: bold;
   }
 
@@ -208,13 +208,14 @@
   }
 
   .aboutme {
-    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
+    background: url("http://estrategistas.com.br/wp-content/uploads/2016/01/Jogada-de-Xadrez-2.jpg") no-repeat;
     background-size: cover;
+    
   }
 
   .aboutme p {
-    color: white;
-    font-weight: 100;
+    color: rgb(218,62,57);
+    font-weight: bold;
     font-size: 17.4px;
   }
 
@@ -483,17 +484,16 @@
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
-
   /* footer styles */
 
   .footer {
-    background-color: #484848;
+    background-color:rgb(97,98,98);
     height: 100px;
     padding-top: 10px;
   }
 
   .footer p{
-    color: white;
+    color: white; 
     font-weight: bold;
     font-size: 16px;
   }
@@ -535,6 +535,7 @@
 
     .aboutme h1 {
       font-size: 28px;
+
     }
 
   }
