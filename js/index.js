@@ -79,7 +79,7 @@ $(document).ready(function() {
           $(this).css('opacity','1')
         });
         $('.header-links a').each(function(){
-          $(this).css('color','white')
+          $(this).css('color','rgb(219, 62, 57)')
         });
         $('.header-links').css("background-color","transparent");
       }
