@@ -1,2 +1,0 @@
-# Estrategistas
-Dev Site
