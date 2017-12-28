@@ -210,7 +210,8 @@
 
   .aboutme {
     background: url("http://estrategistas.com.br/wp-content/uploads/2016/01/Jogada-de-Xadrez-2.jpg") no-repeat;
-    background-size: cover;
+    background-size: contain,cover;
+    background-size: 100% 90%;
     
   }
 
