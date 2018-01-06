@@ -79,7 +79,7 @@ $(document).ready(function() {
           $(this).css('opacity','1')
         });
         $('.header-links a').each(function(){
-          $(this).css('color','white')
+          $(this).css('color','rgb(219, 62, 57)')
         });
         $('.header-links').css("background-color","transparent");
       }
@@ -209,3 +209,12 @@ $(document).ready(function() {
   });
 
 });
+
+    //MAP
+    function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(-16.704035,-49.2728538),
+            zoom:5,
+            };
+            var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
+            }

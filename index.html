@@ -2,6 +2,7 @@
 <html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
   <title>Estrategistas</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
@@ -16,7 +17,7 @@
 <!-- navbar header -->
 <div class="nav-header">
   <div class="nav-brand">
-    <img src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png">
+    <img src="https://i.imgur.com/1ydRbtM.png">
   </div>
   <i class="fa fa-bars fa-3x"></i>
     <div class="header-links">
@@ -63,7 +64,7 @@
 
   <div class="section aboutme" data-anchor="inicio">
     <div class="opaque-bg animated fadeInDown">
-      <h1 style="color:white">Estrategistas</h1>
+      <h1 style="color: rgb(218,62,57);">Estrategistas</h1>
       <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
     </div>
       <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
@@ -128,7 +129,7 @@
           <p>(62) xxxx-xxxx</p>
           <p>Envie-nos a sua mensagem</p>
           <br>
-        <div class="contact-form">
+        <div class="contact-form" style="width:50%; float: left;">
   
           <div id="form-messages"></div>
           <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
@@ -149,7 +150,6 @@
               <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
               <div class="help-block with-errors"></div>
             </div>
-  
             <div class="hidden">
               <input type="text" class="form-control" id="human" name="human" placeholder="">
             </div>
@@ -159,6 +159,28 @@
           </form> 
         <br>
         </div>
+
+        <div class="contact-map">
+          <p style="color: rgb(261,61,56);font-weight: bold;">Aonde nos encontrar:</p>
+          <p class="map-font">Nosso trabalho não é de escritório, é gerar resultado para empresas, nas empresas. As vezes podemos não responder o telefone, mas é só preencher o formulário que um de nossos consultores responderá assim que possível.</p>
+          <p style="color: rgb(261,61,56);font-weight: bold;">Endereço</p><p class="map-font">R. T-30, 2319 – Setor Bueno – Goiânia/GO</p>
+          <div id="mapa">
+              
+              <script>
+            function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+            };
+              var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
+              }
+              </script>
+
+          </div>
+
+
+        </div>
+
     </div>
     </div>
    <!-- fim contato -->
@@ -185,6 +207,7 @@
 <script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
   
     <script  src="js/index.js"></script>
