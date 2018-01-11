@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: #db3e39;
+    color: rgb(261,61,56);
     font-weight: bold;
   }
 
@@ -434,33 +434,25 @@
   /* input field styles */
 
 .contact-form{
-    padding: 0px 35px 0px 35px;
-    position: static;
-    float: left;
-
+    padding: 38px 15px 0px 15px;
+    width:50%;
+    float:left;
   }
 
   .contact-map{
-    padding: 25px 0px 0px 0px;
-    position: static;
-    height: 50%;
-
-  } 
+    padding: 0px 15px 0px 15px;
+    width:50%;
+    float:left;
+  }
   .map-font{
     font-size:13px;
     font-weight: bold;
-    font-color:#db3e39;
+    font-color:rgb(218,62,57);
   }
   #mapa{
     display: inline-block; 
     width:100%;
-    height: 169px;
-    width: 250px;
-
-  }
-
-  .pequenas{
-       background: lightblue; 
+    height: 180px;
   }
 
 
