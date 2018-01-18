@@ -543,7 +543,7 @@
 
   /* smaller resolution styles */
 
-  @media (min-width: 100px) and (max-width: 600px) {
+  @media (min-width: 100px) and (max-width: 840px) {
 
     .fa-bars {
       display: block !important;
@@ -559,7 +559,7 @@
 
   /* mobile styles */
 
-  @media (min-width: 100px) and (max-width: 600px) {
+  @media (min-width: 100px) and (max-width: 840px) {
 
     .content {
       max-width: 300px;
@@ -571,7 +571,7 @@
     }
 
     img {
-      max-width: 300px;
+      max-width: 400px;
     }
 
 
