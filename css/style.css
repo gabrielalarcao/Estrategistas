@@ -560,7 +560,7 @@
 
   /* mobile styles */
 
-  @media (min-width: 100px) and (max-width: 600px) {
+  @media (min-width: 100px) and (max-width: 640px) {
 
     .content {
       max-width: 300px;
