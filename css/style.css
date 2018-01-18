@@ -555,6 +555,7 @@
 
     img {
       max-width: 400px;
+      size: 60%;
     }
 
   /* mobile styles */
@@ -572,8 +573,15 @@
 
     img {
       max-width: 400px;
+      size: 40%;
     }
 
+    @media (min-width: 100px) and (max-width: 400px) {
+      img {
+        max-width: 350px;
+        size: 28%;
+      }
+    }
 
 /* loading screen animation */
 
