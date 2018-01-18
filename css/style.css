@@ -17,6 +17,7 @@
   h1 {
     color: #db3e39;
     font-weight: bold;
+    font-size: 52px;
   }
 
   p {
@@ -85,10 +86,12 @@
     left: 0;
     z-index: 600;
     padding: 10px;
+    width: 120px;
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 100px;
+    margin-top: -5px;
   }
 
   .fa-bars {
@@ -166,7 +169,7 @@
   }
 
   .nav-links a:hover {
-    color: #FF6363;
+    color: #FF6363; 
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -175,7 +178,7 @@
   }
 
   #fp-nav ul li .fp-tooltip {
-    color: #5F5F5F !important;
+    color: 	rgb(110, 46, 46) !important; /* color sidebar*/
   }
 
   /* Expanding border effect */
@@ -210,16 +213,16 @@
   }
 
   .aboutme {
-    background: url("http://estrategistas.com.br/wp-content/uploads/2016/01/Jogada-de-Xadrez-2.jpg") no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
     background-size: contain,cover;
-    background-size: 100% 90%;
-    
+    background-size: 100% 100%;   
   }
 
   .aboutme p {
-    color: rgb(218,62,57);
+    color: rgb(255, 154, 151);
     font-weight: bold;
-    font-size: 17.4px;
+    font-size: 20px;
+    
   }
 
   /* bouncing arrow */
@@ -374,7 +377,7 @@
   .content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width:1000px;
   }
 
   .content-slide {
@@ -384,7 +387,7 @@
   }
 
   .content-slide img {
-    width: 70%;
+    width: 80%;
   }
 
   .fp-controlArrow.fp-next {
@@ -438,7 +441,7 @@
     padding: 0px 35px 0px 35px;
     position: static;
     float: left;
-
+    width: 50%;
   }
 
   .contact-map{
@@ -461,95 +464,6 @@
   }
 
 /*PEDROOO PARTE*/
-
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.9999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 50%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/*AQUI GABRIEL */
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-/*AQUI GABRIEL */
-
-
-
-/*PEDROOOO PARTE*/
 
   .form-control {
     border: 2px solid rgba(0, 0, 0, 0.27);

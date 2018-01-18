@@ -16,7 +16,7 @@ $(document).ready(function() {
   })(jQuery);
 
   // input text for typing animation 
-  $("#holder").writeText("Aqui vai o que quiser");
+  $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
 
   // initialize wow.js
   new WOW().init();
@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['Início', 'Metodologia', 'Convite', 'PDG', 'GO TO MARKET', 'Liderança Situacional', 'Pequenas Empresas', 'Contato'],
-    anchors: ['início', 'metodologia', 'convite', 'PDG', 'market', 'liderança', 'empresas', 'contato'],
+    navigationTooltips: ['Início', 'Convite', 'Metodologia', 'PDG', 'GO TO MARKET', 'Liderança Situacional', 'Pequenas Empresas', 'Contato'],
+    anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'market', 'lideranca', 'empresas', 'contato'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -111,11 +111,11 @@ $(document).ready(function() {
   });
 
   // fullpage.js link navigation
-  $(document).on('click', '#metodologia', function(){
+  $(document).on('click', '#convite', function(){
     $.fn.fullpage.moveTo(2);
   });
 
-  $(document).on('click', '#convite', function(){
+  $(document).on('click', '#metodologia', function(){
     $.fn.fullpage.moveTo(3);
   });
 
@@ -127,7 +127,7 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(5);
   });
 
-  $(document).on('click', '#liderança', function(){
+  $(document).on('click', '#lideranca', function(){
     $.fn.fullpage.moveTo(6);
   });
 
