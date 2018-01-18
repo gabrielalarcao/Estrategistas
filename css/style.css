@@ -559,7 +559,7 @@
 
   /* mobile styles */
 
-  @media (min-width: 100px) and (max-width: 840px) {
+  @media (min-width: 100px) and (max-width: 600px) {
 
     .content {
       max-width: 300px;
