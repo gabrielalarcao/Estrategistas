@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: rgb(261,61,56);
+    color: #db3e39;
     font-weight: bold;
   }
 
@@ -157,7 +157,7 @@
   .nav-links a {
     color: #FFFFFF;
     font-size: 30px;
-    line-height: 2.5;
+    line-height: 1.5;
     font-weight: bold;
     text-decoration: none;
     margin-left: auto;
@@ -210,7 +210,8 @@
 
   .aboutme {
     background: url("http://estrategistas.com.br/wp-content/uploads/2016/01/Jogada-de-Xadrez-2.jpg") no-repeat;
-    background-size: cover;
+    background-size: contain,cover;
+    background-size: 100% 90%;
     
   }
 
@@ -368,7 +369,7 @@
   }
 
   /* portfolio section */
-
+ /* PEDRO TESTEEEEEEEEEEEEEEEE */
   .content {
     margin-left: auto;
     margin-right: auto;
@@ -432,9 +433,37 @@
 
   /* input field styles */
 
-.contact-form {
-    padding: 0px 15px 0px 15px;
+.contact-form{
+    padding: 0px 35px 0px 35px;
+    position: static;
+    float: left;
+
   }
+
+  .contact-map{
+    padding: 25px 0px 0px 0px;
+    position: static;
+    height: 50%;
+
+  } 
+  .map-font{
+    font-size:13px;
+    font-weight: bold;
+    font-color:#db3e39;
+  }
+  #mapa{
+    display: inline-block; 
+    width:100%;
+    height: 169px;
+    width: 250px;
+
+  }
+
+  .pequenas{
+       background: lightblue; 
+  }
+
+
 
 
   .form-control {
@@ -524,7 +553,6 @@
     .header-links {
       display: none;
     }   
-  }
 
   /* mobile styles */
 
@@ -539,7 +567,6 @@
 
     }
 
-  }
 
 /* loading screen animation */
 
@@ -552,7 +579,6 @@
     text-align: center;
     font-size: 10px;
     z-index: 1000;
-  }
 
   .spinner > div {
     background-color: #FF6363;
