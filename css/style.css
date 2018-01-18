@@ -16,6 +16,7 @@
   h1 {
     color: #db3e39;
     font-weight: bold;
+    font-size: 52px;
   }
 
   p {
@@ -87,7 +88,7 @@
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 120px;
   }
 
   .fa-bars {
@@ -165,7 +166,7 @@
   }
 
   .nav-links a:hover {
-    color: #FF6363;
+    color: #FF6363; 
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -174,7 +175,7 @@
   }
 
   #fp-nav ul li .fp-tooltip {
-    color: 	white !important;
+    color: 	rgb(110, 46, 46) !important; /* color sidebar*/
   }
 
   /* Expanding border effect */
@@ -209,16 +210,16 @@
   }
 
   .aboutme {
-    background: url("http://estrategistas.com.br/wp-content/uploads/2016/01/Jogada-de-Xadrez-2.jpg") no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
     background-size: contain,cover;
-    background-size: 100% 90%;
-    
+    background-size: 100% 100%;   
   }
 
   .aboutme p {
-    color: rgb(218,62,57);
+    color: rgb(255, 154, 151);
     font-weight: bold;
-    font-size: 17.4px;
+    font-size: 20px;
+    
   }
 
   /* bouncing arrow */
@@ -373,7 +374,7 @@
   .content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width:1000px;
   }
 
   .content-slide {
@@ -383,7 +384,7 @@
   }
 
   .content-slide img {
-    width: 70%;
+    width: 80%;
   }
 
   .fp-controlArrow.fp-next {
@@ -437,7 +438,7 @@
     padding: 0px 35px 0px 35px;
     position: static;
     float: left;
-
+    width: 50%;
   }
 
   .contact-map{
@@ -462,9 +463,6 @@
   .pequenas{
        background: lightblue; 
   }
-
-
-
 
   .form-control {
     border: 2px solid rgba(0, 0, 0, 0.27);
