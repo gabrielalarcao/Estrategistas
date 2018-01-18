@@ -460,7 +460,7 @@
 
   }
 
-/*PEDROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+/*PEDROOO PARTE*/
 
 div.gallery {
     border: 1px solid #ccc;
@@ -508,12 +508,11 @@ div.desc {
     clear: both;
 }
 
-
+/*AQUI GABRIEL */
 
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
@@ -546,8 +545,11 @@ div.desc {
     visibility: visible;
 }
 
+/*AQUI GABRIEL */
 
-/*PEDROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+
+/*PEDROOOO PARTE*/
 
   .form-control {
     border: 2px solid rgba(0, 0, 0, 0.27);
