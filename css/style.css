@@ -2,7 +2,7 @@
 
   body {
     font-family: 'Raleway', sans-serif !important;
-    background-color: rgb(220,222,222);
+    background-color: #FFF;
   }
 
   ul
@@ -13,6 +13,7 @@
   a {
     text-decoration: none !important;
   }
+
 
   h1 {
     color: #db3e39;
@@ -404,7 +405,6 @@
     background: rgba(0, 0, 0, 0.62) !important;
   }
 
-
   /* contact us styles */
 
   .fa-paper-plane {
@@ -573,6 +573,105 @@ div.desc {
 } 
 
 /*PEDROOO PARTE*/
+
+   
+   .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+  .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+  .tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+ 
+
+.pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 45%;
+  float: left;
+}
+
+.pequenasimg{
+  padding: 0px 15px 0px 15px;
+  width: 55%;
+  float: left;
+  height: 348px;
+  background-image: url(https://static.pexels.com/photos/106344/pexels-photo-106344.jpeg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.pequenastexto2{
+  padding: 0px 15px 0px 15px;
+  width: 90%;
+  float: left;
+}
+
+@media only screen and (max-width: 700px){ 
+  .pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+}
+
+.pequenasimg{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+}
+
+.pequenastexto2{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+  }
+} 
+ 
+@media only screen and (max-width: 500px){ 
+   .pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 100%;
+  float: left;
+}
+
+.pequenasimg{
+  display: none;
+}
+}
+.pequenastexto2{
+  padding: 0px 15px 0px 15px;
+  width: 100%;
+  float: left;
+  }
+}
+
 
 
 
