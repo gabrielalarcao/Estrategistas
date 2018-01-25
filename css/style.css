@@ -548,23 +548,269 @@ div.desc {
 } 
  
 .responsive { 
-    padding: 0 6px; 
+    padding: 2px 6px; 
     float: left; 
-    width: 24.9999%; 
+    width: 19.9999%; 
 } 
+
+
+.ourolac{
+  width: 50px;
+  height: 90px;
+}
+
+.nino{
+width: 50px;
+  height: 170px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 135px;
+}
+
+.cesar{
+width: 50px;
+  height: 75px;
+}
+
+.goiarte{
+width: 50px;
+  height: 135px;
+}
+
+.acamargo{
+width: 50px;
+  height: 135px;
+}
+
+.agile{
+width: 50px;
+  height: 135px;
+}
+
+.deffinis{
+width: 50px;
+  height: 90px;
+}
+
+.ervaria{
+width: 50px;
+  height: 90px;
+}
+
+.governogoias{
+width: 50px;
+  height: 135px;
+}
+
+.juceg{
+width: 50px;
+  height: 135px;
+}
+
+.lauffer{
+width: 50px;
+  height: 135px;
+}
+
+.mesc{
+width: 50px;
+  height: 135px;
+}
+
+.monet{
+width: 50px;
+  height: 135px;
+}
  
+.urbi{
+width: 50px;
+  height: 135px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 90px;
+ }
 @media only screen and (max-width: 700px){ 
-    .responsive { 
-        width: 50%; 
+.responsive { 
+        width: 23%; 
         margin: 6px 0; 
-    } 
+}
+
+.ourolac{
+  width: 50px;
+  height: 90px;
+}
+
+.nino{
+width: 50px;
+  height: 90px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 90px;
+}
+
+.cesar{
+width: 50px;
+  height: 90px;
+}
+
+.goiarte{
+width: 50px;
+  height: 90px;
+}
+
+.acamargo{
+width: 50px;
+  height: 90px;
+}
+
+.agile{
+width: 50px;
+  height: 90px;
+}
+
+.deffinis{
+width: 50px;
+  height: 90px;
+}
+
+.ervaria{
+width: 50px;
+  height: 90px;
+}
+
+.governogoias{
+width: 50px;
+  height: 90px;
+}
+
+.juceg{
+width: 50px;
+  height: 90px;
+}
+
+.lauffer{
+width: 50px;
+  height: 90px;
+}
+
+.mesc{
+width: 50px;
+  height: 90px;
+}
+
+.monet{
+width: 50px;
+  height: 90px;
+}
+ 
+.urbi{
+width: 50px;
+  height: 90px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 90px;
+ }
+
+
 } 
  
 @media only screen and (max-width: 500px){ 
-    .responsive { 
+    
+.responsive { 
         width: 50%; 
         margin: 6px 0; 
-    } 
+} 
+
+
+.ourolac{
+  width: 50px;
+  height: 80px;
+}
+
+.nino{
+width: 50px;
+  height: 80px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 80px;
+}
+
+.cesar{
+width: 50px;
+  height: 80px;
+}
+
+.goiarte{
+width: 50px;
+  height: 80px;
+}
+
+.acamargo{
+width: 50px;
+  height: 80px;
+}
+
+.agile{
+width: 50px;
+  height: 80px;
+}
+
+.deffinis{
+width: 50px;
+  height: 80px;
+}
+
+.ervaria{
+width: 50px;
+  height: 80px;
+}
+
+.governogoias{
+width: 50px;
+  height: 80px;
+}
+
+.juceg{
+width: 50px;
+  height: 80px;
+}
+
+.lauffer{
+width: 50px;
+  height: 80px;
+}
+
+.mesc{
+width: 50px;
+  height: 80px;
+}
+
+.monet{
+width: 50px;
+  height: 80px;
+}
+ 
+.urbi{
+width: 50px;
+  height: 80px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 80px;
+ }
+
+
 } 
  
 .clearfix:after { 
@@ -673,7 +919,17 @@ div.desc {
   }
 }
 
+.imagemnegocio{
+  background-size: 100% 100%;
+  background-image: url(https://static.pexels.com/photos/442574/pexels-photo-442574.jpeg);
+  background-repeat:no-repeat;opacity: 0.4;
+  height:325px;
+  border-radius: 4px;
+}
 
+.textonegocio{
+  width: 100%;
+}
 
 
   .form-control {
