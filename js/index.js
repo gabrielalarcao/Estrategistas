@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['Início', 'Convite', 'Metodologia', 'PDG', 'GO TO MARKET', 'Liderança Situacional', 'Pequenas Empresas', 'Contato'],
-    anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'market', 'lideranca', 'empresas', 'contato'],
+    navigationTooltips: ['Início', 'Convite', 'Metodologia', 'O que fazemos?','Pequenas Empresas','Clientes', 'Escola de Negócios', 'Contato'],
+    anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'empresas', 'clientes', 'market', 'contato'],
     menu: '#myMenu',
     fitToSection: false,
 
