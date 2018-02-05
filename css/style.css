@@ -919,13 +919,7 @@ width: 50px;
   }
 }
 
-.imagemnegocio{
-  background-size: 100% 100%;
-  background-image: url(https://static.pexels.com/photos/442574/pexels-photo-442574.jpeg);
-  background-repeat:no-repeat;opacity: 0.4;
-  height:325px;
-  border-radius: 4px;
-}
+
 
 .textonegocio{
   width: 100%;
