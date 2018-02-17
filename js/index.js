@@ -12,7 +12,10 @@ $(document).ready(function() {
             }
         }, 80);
     };
+      
     
+      
+
   })(jQuery);
 
   // input text for typing animation 
@@ -218,3 +221,4 @@ $(document).ready(function() {
             };
             var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
             }
+

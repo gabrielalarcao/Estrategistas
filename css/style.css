@@ -373,8 +373,7 @@
     color:rgba(0, 0, 0, 0.5);
   }
 
-  /* portfolio section */
- /* PEDRO TESTEEEEEEEEEEEEEEEE */
+ 
   .content {
     margin-left: auto;
     margin-right: auto;
@@ -462,6 +461,7 @@
 
   }
 
+
 @media only screen and (max-width: 700px){ 
 
   .contact-form{
@@ -523,7 +523,6 @@
 
 
 
-/*PEDROOO PARTE*/
 
 
 div.gallery { 
@@ -919,12 +918,8 @@ width: 50px;
   }
 }
 
-.imagemnegocio{
-  background-size: 100% 100%;
-  background-image: url(https://static.pexels.com/photos/442574/pexels-photo-442574.jpeg);
-  background-repeat:no-repeat;opacity: 0.4;
-  height:325px;
-  border-radius: 4px;
+.carroselescola{
+  
 }
 
 .textonegocio{
@@ -1049,6 +1044,10 @@ width: 50px;
         size: 28%;
       }
     }
+
+
+
+
 
 /* loading screen animation */
 
@@ -1198,4 +1197,48 @@ width: 50px;
   width:80%;
   margin: 20px auto;
   left: 100px;
+}
+
+
+
+
+
+
+/* Feel free to change duration  */ 
+.animated  {
+  -webkit-animation-duration : 1000 ms  ;
+  animation-duration : 1000 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}  
+/* .owl-animated-out - only for current item */ 
+/* This is very important class. Use z-index if you want move Out item above In item */ 
+.owl-animated-out {
+  z-index : 1 
+   }
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */ 
+.owl-animated-in {
+  z-index : 0 
+   }
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
 }
