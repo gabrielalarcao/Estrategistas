@@ -22,7 +22,7 @@
   }
 
   p {
-    font-size: 20px;
+    font-size: 17px;
     color: #484848;
   }
 
@@ -818,7 +818,6 @@ width: 50px;
     clear: both; 
 } 
 
-/*PEDROOO PARTE*/
 
    
    .tooltip {
@@ -875,8 +874,8 @@ width: 50px;
 }
 
 .pequenastexto2{
-  padding: 0px 15px 0px 15px;
-  width: 90%;
+  padding: 45px 15px 0px 15px;
+  width: 100%;
   float: left;
 }
 
@@ -918,14 +917,21 @@ width: 50px;
   }
 }
 
-.carroselescola{
-  
-}
 
-.textonegocio{
+.textonegocio1{
   width: 100%;
 }
 
+..textonegocio2{
+  width: 100%;
+}
+
+/*imagens carrosel*/
+
+
+
+@media (min-width: 501px) and (max-width: 700px) {
+}
 
   .form-control {
     border: 2px solid rgba(0, 0, 0, 0.27);
