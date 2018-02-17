@@ -135,12 +135,15 @@
   <div class="section pequenas" data-anchor="empresas">
       <div class="content">
         <h1 class="wow fadeInDown" data-wow-delay="0.2s">Pequenas Empresas</h1>
-        <br><br>
+        <br><br><br>
         <div class="pequenastexto1">
         <p class="wow fadeInDown" data-wow-delay="0.4s" style="text-align: justify;">Com o objetivo de levar as melhores práticas da gestão, das grandes corporações, para o incremento do desempenho das pequenas empresas, a <span style="color: #db3e39;font-weight: bold;">Estrategistas</span> desenvolveu um programa de desenvolvimento da gestão específico para este segmento. Comum diagnóstico inicial gratuito, a equipe de consultores pequenas empresas oferece ao empresário uma solução customizada, na área da gestão identificada no diagnóstico. Uma solução rápida e na medida da <span style="font-weight: bold;">necessidade</span>.</p>
       </div>
       <div class="pequenasimg wow fadeInDown" data-wow-delay="0.4s">
       </div>
+      <br><br>
+      <br\><br\>
+
         <div class="pequenastexto2">
           <br>
         <p class="wow fadeInDown" data-wow-delay="0.4s" style="text-align: justify;">Formada por jovens profissionais, especialistas nas áreas da gestão essenciais para o negócio e coordenada por consultor sênior, este time oferece uma perspectiva a frente de seu tempo, inovadora e comprometida com o <span style="font-weight: bold;">resultado</span>.</p>
@@ -303,28 +306,72 @@
 
     <!-- inicio Escola de negócios 
       USA PEDROOOOOOOOOOOOOOOOOOO style="border:1px solid red;position: inherit;"--> 
- <div class="section" data-anchor="market" style="border:1px solid red;">
-    <div class="content" style="border:1px solid red;">
+ <div class="section" data-anchor="market"">
+    <div class="content"">
       <br>
       <br>
       <h1 class="wow fadeInDown" data-wow-delay="0.2s">Escola de Negócios</h1><br>
    
       <style type="text/css">
-        #owl-demo .item img{
-        display: block;
-        width: 100%;
-        height: auto;
+        #owl-demo .owl-item div{
+        padding:5px;
       }
-      </style>
+      #owl-demo .owl-item img{
+        display: block;
+        width: 50%;
+        height: 240px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+</style>
 
-    <div id="owl-demo" class="owl-carousel owl-theme">
- 
-  <div class="item"><img src="img/fullimage1.jpg" alt="The Last of us"></div>
-  <div class="item"><img src="img/fullimage2.jpg" alt="GTA V"></div>
-  <div class="item"><img src="img/fullimage3.jpg" alt="Mirror Edge"></div>
- 
+<script type="text/javascript">
+
+window.onload = function() {
+
+  document.getElementById('ieg').addEventListener('click', function (e) {
+    var img = document.createElement('img');
+    img.setAttribute('src', 'http://blog.stackoverflow.com/wp-content/uploads/stackoverflow-logo-300.png');
+    e.target.appendChild(img);
+  });
+
+};
+
+</script>
+
+
+    <div id="owl-demo" class="owl-carousel owl-theme wow fadeInDown" data-wow-delay="0.4">
+  <div>
+    <a href="https://ieg.com.br/sobre-o-instituto" target="_blank">
+    <img id="ieg" src="img/ieg.png" style="display: block;width: 65%;padding: 0px 0px 0px 330px;height: 240px;">
+    </a>
+  </div>
+  <div>
+    <a href="https://ieg.com.br/cursos?form=1&curso=33" target="_blank">
+    <img src="img/mba.png" style="display: block;width: 80%;padding: 0px 0px 0px 198px;height: 242px;">
+    </a>
+  </div>
+  <div>
+    <a href="https://ieg.com.br/cursos?form=1&curso=16200" target="_blank">
+    <img id="excelvalor" class="excelvalor-img" src="img/excelvalor.png" style="display: block;width: 72%;padding: 0px 0px 0px 290px;height: 300px;">
+    </a>
+  </div>
+</div>
+<br>
+
+    <!--<div class="textonegocio1">
+      <p class="wow fadeInDown" data-wow-delay="0.4" style="text-align: justify;">Com o objetivo de levar as melhores práticas da gestão, das grandes corporações, para o incremento do desempenho das pequenas empresas, a Estrategistas desenvolveu um programa de desenvolvimento da gestão específico para este segmento. Comum diagnóstico inicial gratuito, a equipe de consultores pequenas empresas oferece ao empresário uma <span style="color: #db3e39;font-weight: bold;">solução customizada</span>, na área da gestão identificada no diagnóstico. Uma solução rápida e na medida da necessidade.
+      Formada por jovens profissionais, especialistas nas áreas da gestão essenciais para o negócio e coordenada por consultor sênior, este time oferece uma perspectiva a frente de seu tempo, inovadora e comprometida com o <span style="font-weight: bold;">resultado</span>.</p>
     </div>
-
+  -->
+  <br><br>
+    <div class="textonegocio2">
+      <p>Clicando na imagem você será redirecionado ao site do <span style="color: #08086f;font-weight:bold;">IEG</span> onde poderá ter mais informações sobre as respectivas pautas.</p>
+      <p class="wow fadeInDown" data-wow-delay="0.4" style="text-align: justify;">
+        Nós, Estrategistas, somos associados ao <span style="color: #08086f;font-weight:bold;">IEG</span>, o Instituto de Engenharia de Gestão, com sede no Rio de Janeiro / RJ, nos estados do Paraná, Distrito Federal e Goias. Com esta parceria, viabilizamos presencialmente a formação completa do time dos nossos clientes, de jovens empreendedores, de jovens executivos, que desejam destacar-se no mercado de trabalho e na carreira. <span style="font-weight:bold;">Formação completa em Excel, Comunicação, Negociação, Criatividade, Logística, Projetos e o MBA Jr.</span>
+      </p>
+    </div>
     </div>
 </div>
 
@@ -432,16 +479,22 @@
               });
             });
 
-*/
-  $(document).ready(function() {
+*/$(document).ready(function() {
  
   $("#owl-demo").owlCarousel({
+    autoPlay : 3000,
+    stopOnHover : true,
+    navigation:true,
+    paginationSpeed : 1000,
+    goToFirstSpeed : 2000,
+    singleItem : true,
+    autoHeight : true,
+    transitionStyle:"fade",
+    items:1
+  });
  
-      navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-      items : 1
+}); 
+  
 
       // "singleItem:true" is a shortcut for:
       // items : 1, 
@@ -450,8 +503,7 @@
       // itemsTablet: false,
       // itemsMobile : false
  
-  });
-});
+
 </script>
 
 

@@ -18,6 +18,11 @@ $(document).ready(function() {
 
   })(jQuery);
 
+
+
+
+
+
   // input text for typing animation 
   $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
 
@@ -221,4 +226,11 @@ $(document).ready(function() {
             };
             var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
             }
+
+
+ 
+
+ 
+
+
 
