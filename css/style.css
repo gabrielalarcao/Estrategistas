@@ -2,6 +2,7 @@
 
   body {
     font-family: 'Raleway', sans-serif !important;
+    background-color: #FFF;
   }
 
   ul
@@ -13,13 +14,15 @@
     text-decoration: none !important;
   }
 
+
   h1 {
-    color: #FF6363;
+    color: #db3e39;
     font-weight: bold;
+    font-size: 52px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 17px;
     color: #484848;
   }
 
@@ -84,10 +87,12 @@
     left: 0;
     z-index: 600;
     padding: 10px;
+    width: 120px;
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 100px;
+    margin-top: -5px;
   }
 
   .fa-bars {
@@ -122,6 +127,7 @@
     float: right;
     padding: 15px;
     font-size: 16px;
+    font-weight: 1000;
   }
 
   .header-links a {
@@ -156,7 +162,7 @@
   .nav-links a {
     color: #FFFFFF;
     font-size: 30px;
-    line-height: 2.5;
+    line-height: 1.5;
     font-weight: bold;
     text-decoration: none;
     margin-left: auto;
@@ -164,7 +170,7 @@
   }
 
   .nav-links a:hover {
-    color: #FF6363;
+    color: #FF6363; 
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -173,7 +179,7 @@
   }
 
   #fp-nav ul li .fp-tooltip {
-    color: 	white !important;
+    color: 	rgb(110, 46, 46) !important; /* color sidebar*/
   }
 
   /* Expanding border effect */
@@ -209,13 +215,15 @@
 
   .aboutme {
     background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
-    background-size: cover;
+    background-size: contain,cover;
+    background-size: 100% 100%;   
   }
 
   .aboutme p {
-    color: white;
-    font-weight: 100;
-    font-size: 17.4px;
+    color: rgb(255, 154, 151);
+    font-weight: bold;
+    font-size: 20px;
+    
   }
 
   /* bouncing arrow */
@@ -365,12 +373,11 @@
     color:rgba(0, 0, 0, 0.5);
   }
 
-  /* portfolio section */
-
+ 
   .content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width:1000px;
   }
 
   .content-slide {
@@ -380,7 +387,7 @@
   }
 
   .content-slide img {
-    width: 70%;
+    width: 80%;
   }
 
   .fp-controlArrow.fp-next {
@@ -396,7 +403,6 @@
   #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background: rgba(0, 0, 0, 0.62) !important;
   }
-
 
   /* contact us styles */
 
@@ -430,10 +436,501 @@
 
   /* input field styles */
 
-.contact-form {
-    padding: 0px 15px 0px 15px;
+.contact-form{
+    padding: 0px 15px 0px 15px; 
+    width:50%; 
+    float:left; 
   }
 
+  .contact-map{
+     padding: 0px 15px 0px 15px; 
+    width:50%; 
+    float:left; 
+
+  } 
+  .map-font{
+    font-size:13px;
+    font-weight: bold;
+    font-color:#db3e39;
+  }
+  #mapa{
+    display: inline-block; 
+    width:100%;
+    height: 169px;
+    width: 250px;
+
+  }
+
+
+@media only screen and (max-width: 700px){ 
+
+  .contact-form{
+    padding: 0px 15px 0px 15px; 
+    width:95%; 
+    float:left; 
+  }
+
+  .contact-map{
+     padding: 0px 15px 0px 15px; 
+    width:95%; 
+    float:left; 
+
+  } 
+  .map-font{
+    font-size:13px;
+    font-weight: bold;
+    font-color:#db3e39;
+  }
+  #mapa{
+    display: inline-block; 
+    width:100%;
+    height: 169px;
+    width: 250px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 500px){ 
+
+  .contact-form{
+    padding: 0px 15px 0px 15px; 
+    width:112%; 
+    float:left; 
+  }
+
+  .contact-map{
+     padding: 0px 15px 0px 15px; 
+    width:112%; 
+    float:left; 
+
+  } 
+  .map-font{
+    font-size:13px;
+    font-weight: bold;
+    font-color:#db3e39;
+  }
+  #mapa{
+    display: inline-block; 
+    width:100%;
+    height: 169px;
+    width: 250px;
+
+  }
+
+}
+
+
+
+
+div.gallery { 
+    border: 1px solid #ccc; 
+} 
+ 
+div.gallery:hover { 
+    border: 1px solid #777; 
+} 
+ 
+div.gallery img { 
+    width: 100%; 
+} 
+ 
+div.desc { 
+    padding: 15px; 
+    text-align: center; 
+} 
+ 
+* { 
+    box-sizing: border-box; 
+} 
+ 
+.responsive { 
+    padding: 2px 6px; 
+    float: left; 
+    width: 19.9999%; 
+} 
+
+
+.ourolac{
+  width: 50px;
+  height: 90px;
+}
+
+.nino{
+width: 50px;
+  height: 170px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 135px;
+}
+
+.cesar{
+width: 50px;
+  height: 75px;
+}
+
+.goiarte{
+width: 50px;
+  height: 135px;
+}
+
+.acamargo{
+width: 50px;
+  height: 135px;
+}
+
+.agile{
+width: 50px;
+  height: 135px;
+}
+
+.deffinis{
+width: 50px;
+  height: 90px;
+}
+
+.ervaria{
+width: 50px;
+  height: 90px;
+}
+
+.governogoias{
+width: 50px;
+  height: 135px;
+}
+
+.juceg{
+width: 50px;
+  height: 135px;
+}
+
+.lauffer{
+width: 50px;
+  height: 135px;
+}
+
+.mesc{
+width: 50px;
+  height: 135px;
+}
+
+.monet{
+width: 50px;
+  height: 135px;
+}
+ 
+.urbi{
+width: 50px;
+  height: 135px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 90px;
+ }
+@media only screen and (max-width: 700px){ 
+.responsive { 
+        width: 23%; 
+        margin: 6px 0; 
+}
+
+.ourolac{
+  width: 50px;
+  height: 90px;
+}
+
+.nino{
+width: 50px;
+  height: 90px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 90px;
+}
+
+.cesar{
+width: 50px;
+  height: 90px;
+}
+
+.goiarte{
+width: 50px;
+  height: 90px;
+}
+
+.acamargo{
+width: 50px;
+  height: 90px;
+}
+
+.agile{
+width: 50px;
+  height: 90px;
+}
+
+.deffinis{
+width: 50px;
+  height: 90px;
+}
+
+.ervaria{
+width: 50px;
+  height: 90px;
+}
+
+.governogoias{
+width: 50px;
+  height: 90px;
+}
+
+.juceg{
+width: 50px;
+  height: 90px;
+}
+
+.lauffer{
+width: 50px;
+  height: 90px;
+}
+
+.mesc{
+width: 50px;
+  height: 90px;
+}
+
+.monet{
+width: 50px;
+  height: 90px;
+}
+ 
+.urbi{
+width: 50px;
+  height: 90px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 90px;
+ }
+
+
+} 
+ 
+@media only screen and (max-width: 500px){ 
+    
+.responsive { 
+        width: 50%; 
+        margin: 6px 0; 
+} 
+
+
+.ourolac{
+  width: 50px;
+  height: 80px;
+}
+
+.nino{
+width: 50px;
+  height: 80px;
+}
+
+.tecnoseg{
+width: 50px;
+  height: 80px;
+}
+
+.cesar{
+width: 50px;
+  height: 80px;
+}
+
+.goiarte{
+width: 50px;
+  height: 80px;
+}
+
+.acamargo{
+width: 50px;
+  height: 80px;
+}
+
+.agile{
+width: 50px;
+  height: 80px;
+}
+
+.deffinis{
+width: 50px;
+  height: 80px;
+}
+
+.ervaria{
+width: 50px;
+  height: 80px;
+}
+
+.governogoias{
+width: 50px;
+  height: 80px;
+}
+
+.juceg{
+width: 50px;
+  height: 80px;
+}
+
+.lauffer{
+width: 50px;
+  height: 80px;
+}
+
+.mesc{
+width: 50px;
+  height: 80px;
+}
+
+.monet{
+width: 50px;
+  height: 80px;
+}
+ 
+.urbi{
+width: 50px;
+  height: 80px;
+ }
+
+ .utildrogas{
+width: 50px;
+  height: 80px;
+ }
+
+
+} 
+ 
+.clearfix:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+} 
+
+
+   
+   .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+  .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+  .tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+ 
+
+.pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 45%;
+  float: left;
+}
+
+.pequenasimg{
+  padding: 0px 15px 0px 15px;
+  width: 55%;
+  float: left;
+  height: 348px;
+  background-image: url(https://static.pexels.com/photos/106344/pexels-photo-106344.jpeg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.pequenastexto2{
+  padding: 45px 15px 0px 15px;
+  width: 100%;
+  float: left;
+}
+
+@media only screen and (max-width: 700px){ 
+  .pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+}
+
+.pequenasimg{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+}
+
+.pequenastexto2{
+  padding: 0px 15px 0px 15px;
+  width: 95%;
+  float: left;
+  }
+} 
+ 
+@media only screen and (max-width: 500px){ 
+   .pequenastexto1{
+  padding: 0px 15px 0px 15px;
+  width: 100%;
+  float: left;
+}
+
+.pequenasimg{
+  display: none;
+}
+}
+.pequenastexto2{
+  padding: 0px 15px 0px 15px;
+  width: 100%;
+  float: left;
+  }
+}
+
+
+.textonegocio1{
+  width: 100%;
+}
+
+..textonegocio2{
+  width: 100%;
+}
+
+/*imagens carrosel*/
+
+
+
+@media (min-width: 501px) and (max-width: 700px) {
+}
 
   .form-control {
     border: 2px solid rgba(0, 0, 0, 0.27);
@@ -483,17 +980,16 @@
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
-
   /* footer styles */
 
   .footer {
-    background-color: #484848;
+    background-color:rgb(97,98,98);
     height: 100px;
     padding-top: 10px;
   }
 
   .footer p{
-    color: white;
+    color: white; 
     font-weight: bold;
     font-size: 16px;
   }
@@ -514,7 +1010,7 @@
 
   /* smaller resolution styles */
 
-  @media (min-width: 100px) and (max-width: 500px) {
+  @media (min-width: 100px) and (max-width: 840px) {
 
     .fa-bars {
       display: block !important;
@@ -522,12 +1018,16 @@
 
     .header-links {
       display: none;
-    }   
-  }
+    }
+
+    img {
+      max-width: 400px;
+      size: 60%;
+    }
 
   /* mobile styles */
 
-  @media (min-width: 100px) and (max-width: 400px) {
+  @media (min-width: 100px) and (max-width: 640px) {
 
     .content {
       max-width: 300px;
@@ -535,9 +1035,24 @@
 
     .aboutme h1 {
       font-size: 28px;
+
     }
 
-  }
+    img {
+      max-width: 400px;
+      size: 40%;
+    }
+
+    @media (min-width: 100px) and (max-width: 400px) {
+      img {
+        max-width: 350px;
+        size: 28%;
+      }
+    }
+
+
+
+
 
 /* loading screen animation */
 
@@ -550,7 +1065,6 @@
     text-align: center;
     font-size: 10px;
     z-index: 1000;
-  }
 
   .spinner > div {
     background-color: #FF6363;
@@ -677,4 +1191,59 @@
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+}
+
+/* test video */
+
+.white-popup {
+  position: absolute;
+  background: #FFF;
+  padding: 20px;
+  width:80%;
+  margin: 20px auto;
+  left: 100px;
+}
+
+
+
+
+
+
+/* Feel free to change duration  */ 
+.animated  {
+  -webkit-animation-duration : 1000 ms  ;
+  animation-duration : 1000 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}  
+/* .owl-animated-out - only for current item */ 
+/* This is very important class. Use z-index if you want move Out item above In item */ 
+.owl-animated-out {
+  z-index : 1 
+   }
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */ 
+.owl-animated-in {
+  z-index : 0 
+   }
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
 }

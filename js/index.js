@@ -12,11 +12,19 @@ $(document).ready(function() {
             }
         }, 80);
     };
+      
     
+      
+
   })(jQuery);
 
+
+
+
+
+
   // input text for typing animation 
-  $("#holder").writeText("WEB DESIGNER + FRONT-END DEVELOPER");
+  $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
 
   // initialize wow.js
   new WOW().init();
@@ -63,8 +71,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'connect'],
-    anchors: ['home', 'about', 'portfolio', 'contact', 'connect'],
+    navigationTooltips: ['Início', 'Convite', 'Metodologia', 'O que fazemos?','Pequenas Empresas','Clientes', 'Escola de Negócios', 'Contato'],
+    anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'empresas', 'clientes', 'market', 'contato'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -79,7 +87,7 @@ $(document).ready(function() {
           $(this).css('opacity','1')
         });
         $('.header-links a').each(function(){
-          $(this).css('color','white')
+          $(this).css('color','#db3e39')
         });
         $('.header-links').css("background-color","transparent");
       }
@@ -111,16 +119,32 @@ $(document).ready(function() {
   });
 
   // fullpage.js link navigation
-  $(document).on('click', '#skills', function(){
+  $(document).on('click', '#convite', function(){
     $.fn.fullpage.moveTo(2);
   });
 
-  $(document).on('click', '#projects', function(){
+  $(document).on('click', '#metodologia', function(){
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#PDG', function(){
     $.fn.fullpage.moveTo(4);
+  });
+
+  $(document).on('click', '#market', function(){
+    $.fn.fullpage.moveTo(5);
+  });
+
+  $(document).on('click', '#lideranca', function(){
+    $.fn.fullpage.moveTo(6);
+  });
+
+  $(document).on('click', '#empresas', function(){
+    $.fn.fullpage.moveTo(7);
+  });
+
+  $(document).on('click', '#contato', function(){
+    $.fn.fullpage.moveTo(8);
   });
 
   // smooth scrolling
@@ -193,3 +217,20 @@ $(document).ready(function() {
   });
 
 });
+
+    //MAP
+    function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(-16.704035,-49.2728538),
+            zoom:5,
+            };
+            var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
+            }
+
+
+ 
+
+ 
+
+
+
