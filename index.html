@@ -5,12 +5,14 @@
   <meta name="viewport" content="initial-scale=1.0">
   <title>Estrategistas</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
   <link rel="stylesheet" href="css/style.css">
+
 
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/owl.carousel.css">
@@ -326,48 +328,33 @@
 }
 </style>
 
-<script type="text/javascript">
 
-window.onload = function() {
-
-  document.getElementById('ieg').addEventListener('click', function (e) {
-    var img = document.createElement('img');
-    img.setAttribute('src', 'http://blog.stackoverflow.com/wp-content/uploads/stackoverflow-logo-300.png');
-    e.target.appendChild(img);
-  });
-
-};
-
-</script>
-
-
-    <div id="owl-demo" class="owl-carousel owl-theme wow fadeInDown" data-wow-delay="0.4">
+    <div id="owl-carousel" class="owl-carousel owl-theme wow fadeInDown" data-wow-delay="0.4">
   <div>
     <a href="https://ieg.com.br/sobre-o-instituto" target="_blank">
-    <img id="ieg" src="img/ieg.png" style="display: block;width: 65%;padding: 0px 0px 0px 330px;height: 240px;">
+    <img id="ieg" src="img/slide1.png">
+    <br><br>
+    <p style="font-weight: bold;">O <span style="color: #08086f;font-weight:bold;">IEG</span> Há 10 anos, o IEG elabora soluções em ensino, pesquisa e consultoria em gestão</p>
     </a>
   </div>
   <div>
     <a href="https://ieg.com.br/cursos?form=1&curso=33" target="_blank">
-    <img src="img/mba.png" style="display: block;width: 80%;padding: 0px 0px 0px 198px;height: 242px;">
+    <img id="mba" src="img/mba.png">
     </a>
+    <br><br>
+    <p style="font-weight: bold;">MBA,Jr. é um conceito cada vez mais presente nas Escolas de Negócios americanas e europeias. É um curso de caráter livre, baseado em uma experiência que visa transformar, ao longo de um ano, jovens em futuros líderes de empresas nacionais e multinacionais.</p>
   </div>
   <div>
     <a href="https://ieg.com.br/cursos?form=1&curso=16200" target="_blank">
-    <img id="excelvalor" class="excelvalor-img" src="img/excelvalor.png" style="display: block;width: 72%;padding: 0px 0px 0px 290px;height: 300px;">
+    <img id="excelvalor" class="excelvalor-img" src="img/slide3.png">
     </a>
+    <br><br>
+    <p style="font-weight: bold;">Não perca a chance de fazer o novo curso IEG - Estrategistas: <span style="color: #1c5010">EXCEL</span> APLICADO A NEGÓCIOS.</p>
   </div>
 </div>
 <br>
-
-    <!--<div class="textonegocio1">
-      <p class="wow fadeInDown" data-wow-delay="0.4" style="text-align: justify;">Com o objetivo de levar as melhores práticas da gestão, das grandes corporações, para o incremento do desempenho das pequenas empresas, a Estrategistas desenvolveu um programa de desenvolvimento da gestão específico para este segmento. Comum diagnóstico inicial gratuito, a equipe de consultores pequenas empresas oferece ao empresário uma <span style="color: #db3e39;font-weight: bold;">solução customizada</span>, na área da gestão identificada no diagnóstico. Uma solução rápida e na medida da necessidade.
-      Formada por jovens profissionais, especialistas nas áreas da gestão essenciais para o negócio e coordenada por consultor sênior, este time oferece uma perspectiva a frente de seu tempo, inovadora e comprometida com o <span style="font-weight: bold;">resultado</span>.</p>
-    </div>
-  -->
-  <br><br>
     <div class="textonegocio2">
-      <p>Clicando na imagem você será redirecionado ao site do <span style="color: #08086f;font-weight:bold;">IEG</span> onde poderá ter mais informações sobre as respectivas pautas.</p>
+      <p>Clicando na imagem você será redirecionado ao site do IEG onde poderá ter mais informações sobre as respectivas pautas.</p>
       <p class="wow fadeInDown" data-wow-delay="0.4" style="text-align: justify;">
         Nós, Estrategistas, somos associados ao <span style="color: #08086f;font-weight:bold;">IEG</span>, o Instituto de Engenharia de Gestão, com sede no Rio de Janeiro / RJ, nos estados do Paraná, Distrito Federal e Goias. Com esta parceria, viabilizamos presencialmente a formação completa do time dos nossos clientes, de jovens empreendedores, de jovens executivos, que desejam destacar-se no mercado de trabalho e na carreira. <span style="font-weight:bold;">Formação completa em Excel, Comunicação, Negociação, Criatividade, Logística, Projetos e o MBA Jr.</span>
       </p>
@@ -481,16 +468,31 @@ window.onload = function() {
 
 */$(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
-    autoPlay : 3000,
+  $(".owl-carousel").owlCarousel({
+    autoPlay : 1500,
+    nav:false,
     stopOnHover : true,
     navigation:true,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
     singleItem : true,
     autoHeight : true,
+    autoplay:true,
+    autoplayHoverPause:true,
     transitionStyle:"fade",
-    items:1
+    items:1,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+
   });
  
 }); 

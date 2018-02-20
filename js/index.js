@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-  // typing animation
+  /*
+  //typing animation
   (function($) {
     $.fn.writeText = function(content) {
         var contentArray = content.split(""),
@@ -25,6 +26,10 @@ $(document).ready(function() {
 
   // input text for typing animation 
   $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
+  
+
+  ///TESTANDO RETIRADA DA ANIMAÇÃO */
+
 
   // initialize wow.js
   new WOW().init();

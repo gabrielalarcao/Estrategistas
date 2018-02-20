@@ -22,8 +22,10 @@
   }
 
   p {
-    font-size: 17px;
+    font-size: 15px;
     color: #484848;
+    opacity: .8;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
   .section {
@@ -520,9 +522,6 @@
   }
 
 }
-
-
-
 
 div.gallery { 
     border: 1px solid #ccc; 
