@@ -1190,12 +1190,3 @@ width: 50px;
 }
 
 /* test video */
-
-.white-popup {
-  position: absolute;
-  background: #FFF;
-  padding: 20px;
-  width:80%;
-  margin: 20px auto;
-  left: 100px;
-}
