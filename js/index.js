@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-  /*
-  //typing animation
+  // typing animation
   (function($) {
     $.fn.writeText = function(content) {
         var contentArray = content.split(""),
@@ -13,23 +12,11 @@ $(document).ready(function() {
             }
         }, 80);
     };
-      
     
-      
-
   })(jQuery);
-
-
-
-
-
 
   // input text for typing animation 
   $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
-  
-
-  ///TESTANDO RETIRADA DA ANIMAÇÃO */
-
 
   // initialize wow.js
   new WOW().init();
@@ -231,11 +218,3 @@ $(document).ready(function() {
             };
             var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
             }
-
-
- 
-
- 
-
-
-
