@@ -89,11 +89,10 @@
     left: 0;
     z-index: 600;
     padding: 10px;
-    width: 120px;
+    width: 400px;
   }
 
   .nav-brand img {
-    width: 100px;
     margin-top: -5px;
   }
 
@@ -216,7 +215,7 @@
   }
 
   .aboutme {
-    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
+    background: url("https://i.imgur.com/hJhfuTH.jpg") no-repeat;
     background-size: contain,cover;
     background-size: 100% 100%;   
   }
