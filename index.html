@@ -78,11 +78,40 @@
   <!-- inicio inicio -->
 
   <div class="section aboutme" data-anchor="inicio">
-    <div class="opaque-bg animated fadeInDown">
+    <div class="opaque-bg">
       <h1 style="color: rgb(218,62,57);">Estrategistas</h1></br></br>
     </div>
      <!-- Video -->
-    <div>
+    <!-- Mobile -->
+
+    <section>
+      <style scoped>
+        @media only screen and (max-width: 400px) {
+          .mobile{ 
+            display: inline !important; 
+          }
+        }
+
+        @media only screen and (min-width: 401px) {
+          .desktop-hide{ 
+            display: none !important; 
+          }
+        }
+
+        @media only screen and (max-width: 400px) {
+          .mobile-hide{ 
+            display: none !important; 
+          }
+        }
+      </style>
+    <div class="mobile desktop-hide">
+      <a href="https://www.youtube.com/watch?v=XA5ju0NOjtU">
+        <img src="https://i.ytimg.com/vi_webp/XA5ju0NOjtU/sddefault.webp" style="max-width: 350px;" center class="wow fadeInUp" data-wow-delay="0.5s">
+      </a>
+    </div>
+    
+     <!-- Desktop -->
+    <div class="mobile-hide">
     <a href="#test-popup" class="open-popup-link">
       <img src="https://i.ytimg.com/vi_webp/XA5ju0NOjtU/sddefault.webp" style="max-width: 400px;" center class="wow fadeInUp" data-wow-delay="0.5s">
     </a>
@@ -90,6 +119,7 @@
       <iframe width="960" height="560" src="https://www.youtube.com/embed/XA5ju0NOjtU" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     </div>
+    </section>
     <!-- Final video -->
       <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
   </div>
