@@ -304,6 +304,7 @@
     animation: bounce 2s infinite;
   }
 
+
   /* about section */
 
   /* Skill bars */
@@ -898,6 +899,7 @@ width: 50px;
   float: left;
 }
 
+
 .pequenasimg{
   padding: 0px 15px 0px 15px;
   width: 95%;
@@ -1055,6 +1057,7 @@ width: 50px;
       max-width: 400px;
       size: 60%;
     }
+  }
 
   /* mobile styles */
 
@@ -1073,6 +1076,7 @@ width: 50px;
       max-width: 400px;
       size: 40%;
     }
+  }
 
     @media (min-width: 100px) and (max-width: 400px) {
       img {
