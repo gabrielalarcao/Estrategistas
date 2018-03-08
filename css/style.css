@@ -215,9 +215,11 @@
   }
 
   .aboutme {
-    background: url("https://i.imgur.com/hJhfuTH.jpg") no-repeat;
+    background: url("https://i.imgur.com/hJhfuTH.jpg");
     background-size: contain,cover;
-    background-size: 100% 100%;   
+    background-size: 100% 100%;
+    background-attachment: local;
+    background-repeat: no-repeat;
   }
 
   .aboutme p {
