@@ -96,6 +96,18 @@
     margin-top: -5px;
   }
 
+  .bandeira {
+    position: absolute;
+    left: 7%;
+    z-index: 600;
+    padding: 10px;
+    width: 400px;
+  }
+
+  .bandeira img {
+    margin-top: 15px;
+  }
+
   .fa-bars {
     display: none !important;
     color: #FF6363;
