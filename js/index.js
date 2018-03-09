@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-  // typing animation
+  /*
+  //typing animation
   (function($) {
     $.fn.writeText = function(content) {
         var contentArray = content.split(""),
@@ -12,11 +13,23 @@ $(document).ready(function() {
             }
         }, 80);
     };
+      
     
+      
+
   })(jQuery);
+
+
+
+
+
 
   // input text for typing animation 
   $("#holder").writeText("A NOSSA JOGADA É FAZER VOCÊ VENCER!");
+  
+
+  ///TESTANDO RETIRADA DA ANIMAÇÃO */
+
 
   // initialize wow.js
   new WOW().init();
@@ -155,6 +168,7 @@ $(document).ready(function() {
     });
   });
 
+
   //ajax form
   $(function() {
 
@@ -200,7 +214,7 @@ $(document).ready(function() {
         if (data.responseText !== '') {
           $(formMessages).text(data.responseText);
         } else {
-          $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          $(formMessages).text('Oops, algo deu errado!');
         }
       });
 
@@ -210,11 +224,7 @@ $(document).ready(function() {
 
 });
 
-    //MAP
-    function myMap() {
-            var mapProp= {
-            center:new google.maps.LatLng(-16.704035,-49.2728538),
-            zoom:5,
-            };
-            var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
-            }
+ 
+
+
+
