@@ -1053,7 +1053,7 @@ width: 50px;
 
   /* mobile styles */
 
-  @media (min-width: 100px) and (max-width: 640px) {
+  @media (min-width: 100px) and (max-width: 720px) {
 
     .content {
       max-width: 300px;
