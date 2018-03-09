@@ -74,7 +74,7 @@ $(document).ready(function() {
 
   $('#fullpage').fullpage({
     scrollBar: true,
-    responsiveWidth: 400,
+    responsiveWidth: 900,
     navigation: true,
     navigationTooltips: ['Início', 'Convite', 'Metodologia', 'O que fazemos?','Pequenas Empresas','Clientes', 'Escola de Negócios', 'Contato'],
     anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'empresas', 'clientes', 'market', 'contato'],
@@ -225,6 +225,3 @@ $(document).ready(function() {
 });
 
  
-
-
-
