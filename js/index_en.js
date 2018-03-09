@@ -76,7 +76,7 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 900,
     navigation: true,
-    navigationTooltips: ['Início', 'Convite', 'Metodologia', 'O que fazemos?','Pequenas Empresas','Clientes', 'Escola de Negócios', 'Contato'],
+    navigationTooltips: ['Home', 'Invitation', 'Methodology', 'What do we do?','Small Business','Clients', 'Business School', 'Contact'],
     anchors: ['inicio', 'convite', 'metodologia', 'PDG', 'empresas', 'clientes', 'market', 'contato'],
     menu: '#myMenu',
     fitToSection: false,
