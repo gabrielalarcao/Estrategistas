@@ -735,7 +735,8 @@ width: 50px;
     
 .responsive { 
         width: 50%; 
-        margin: 6px 0; 
+        margin: 8px 0 0 7px;
+        padding-left: 9%;
 } 
 
 
